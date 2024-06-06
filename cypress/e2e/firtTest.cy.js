@@ -1,6 +1,6 @@
 describe("Login Form Tests", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:5173/");
+    cy.visit("http://localhost:5173");
 
     cy.get("form", { timeout: 10000 }).should("be.visible");
   });
